@@ -25,7 +25,12 @@
 
 [include]
     path = ~/.gitconfig-extra
+
 [commit]
 	gpgsign = true
+
 [init]
 	defaultBranch = master
+
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
