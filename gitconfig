@@ -6,6 +6,7 @@
     t = tag -l
     acm = !git add -A && git commit -m
     pm = push origin master
+    sur = submodule update --remote --recursive
 
 [core]
     whitespace = space-before-tab,-indent-with-non-tab,trailing-space
