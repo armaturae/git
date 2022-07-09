@@ -7,3 +7,6 @@
 - link:
     ~/.gitconfig: gitconfig
     ~/.config/git/ignore: gitignore.global
+
+- create:
+    - "~/.config/git"
